@@ -19,3 +19,13 @@ String s1='saitejaswi';
 print("this is $s1 and the ${nm.length}");
 }     //note All datatypes are objects ; and by default they are null
 
+
+
+//final and constant 
+void main(){
+final String neme="teju";
+const gravity=9.8;
+ print(neme);
+
+    print(gravity);
+}
