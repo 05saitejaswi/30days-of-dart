@@ -29,3 +29,10 @@ const gravity=9.8;
 
     print(gravity);
 }
+
+//class
+
+class circle {
+final color="red";
+static const pt="3.41";
+}
