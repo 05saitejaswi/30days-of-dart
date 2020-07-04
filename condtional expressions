@@ -34,6 +34,15 @@ print("$smallernumber is smaller");
 
 
 
+// second way of  doining this conditional expresssions 
+void main(){
+String name = null;
+String nm = name??"guessuser";// if the  first value  is null then the value will be guestuser
+print(nm);
+}
+
+
+
 
 
 
