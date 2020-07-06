@@ -1,0 +1,8 @@
+//functions
+all functions in dart will return values
+void main(){
+int functionanme(){
+print("hello");
+}
+}
+-
