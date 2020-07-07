@@ -1,4 +1,7 @@
-     
+  parameters in dart
+  
+  
+  
 parametrs == required
             optional=====positional
                          named
@@ -69,12 +72,12 @@ int name(int l,{int b,int h=20}){
 
 // one more method using the default 
 void main(){
-findvolume(10);
-findvolume(10,b:5.h:30);
+findvolume(10,b:5,h:30);
 }
-int findvolume(int b=2,int h=20}){
+int findvolume(int l,{int b=2,int h=20}){
 print("volume is ${l*b*h}");
 }
+
 
 
 
