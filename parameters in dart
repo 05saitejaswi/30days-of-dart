@@ -53,3 +53,28 @@ int name(int l,{int b,int h}){
 
 
 //optional parametrs
+//Default parameter == you can default values to parameters
+void main(){
+
+  name(3,b:20);
+  
+}
+int name(int l,{int b,int h=20}){
+  print("dkjfhdj is $l");
+  print("dkjfhdj is $b");
+  print("dkjfhdj is $h");
+  print("vlo is ${l*b*h}");
+  
+}
+
+// one more method using the default 
+void main(){
+findvolume(10);
+findvolume(10,b:5.h:30);
+}
+int findvolume(int b=2,int h=20}){
+print("volume is ${l*b*h}");
+}
+
+
+
