@@ -1,4 +1,7 @@
- void main(){
+//condtional expressions
+
+
+void main(){
 int a =10;
 int b=20;
 if(a<b){
@@ -32,6 +35,29 @@ int smallernumber =a<b ? a:b;
 print("$smallernumber is smaller");
 }
 
+// switch statemets 
+void main(){
+String grade ='A';//here only string and int is valid
+
+switch(grade){
+case 'A':
+ print("excellent");
+ break;
+ case 'B':
+ print("Good");
+ break;
+ case 'C':
+ print("saticsfied");
+ break;
+ case 'D':
+ print("ok");
+ break;
+ default:
+ print("invalid");
+ }
+ 
+ }
+ 
 
 
 // second way of  doining this conditional expresssions 
